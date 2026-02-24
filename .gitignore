@@ -1,0 +1,7 @@
+*.log
+
+*.vscode
+
+ZhaoXinru/ImageClass/datasets
+
+ZhaoXinru/Translation/datasets
