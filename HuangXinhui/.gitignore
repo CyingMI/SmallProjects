@@ -1,0 +1,6 @@
+# Ignore log files and VSCode settings
+*.log
+*.vscode
+
+# Ignore all files in any directory
+/ImageClass/dataset/
