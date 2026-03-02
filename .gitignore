@@ -1,6 +1,14 @@
-# Ignore all .log files
 *.log
-*.vscode
+.vscode/
+*.pth
+*.json
 
-# Ignore all files in any directory
-WangHeng/ImageClass/dataset/
+# 针对你提到的数据集文件夹，建议这样写：
+zhangsihan/Imageclass/dataset/
+zhangsihan/Translation/dataset/
+
+# 如果你想忽略所有名为 dataset 的文件夹，可以直接写：
+**/dataset/
+
+# 忽略所有包含 trainpath 的文件夹
+**/trainpath/
